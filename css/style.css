@@ -1,0 +1,144 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+body {
+  font-family: "Lato", sans-serif;
+  color: #5f6268;
+  font-weight: 300;
+}
+
+img, svg {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@@media only screen and (max-width: 500px){
+  a {
+    min-width: 48px;
+    min-height: 48px;
+  }
+
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  width: 100%;
+  max-height: 120px;
+  border-bottom: solid;
+  border-width: medium;
+  border-color: #7d97ad;
+  margin-bottom: 25px;
+  padding: 5px;
+}
+
+.heading {
+  text-align: right;
+  width: 75%;
+  text-transform: uppercase;
+  height: auto;
+  position: relative;
+}
+
+h1 {
+  padding-right: 4px;
+  font-size: 20px;
+  margin-bottom: 2px;
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+h3 {
+  padding-left: 2px;
+  padding-right: 4px;
+  margin-top: 0px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+h4 {
+  font-size: 14px;
+}
+
+.featured {
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+
+.lighter {
+  color: #7d97ad;
+}
+
+.apps {
+  margin-top: 0px;
+}
+
+.logo {
+  width: 25%;
+  padding-bottom: 30px;
+}
+
+.entry {
+  text-align: center;
+}
+
+.heading span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin-bottom: -10px;
+}
+
+[class*="zocial-github"]:before {
+  font-family: 'zocial', sans-serif;
+}
+
+/* Rules for displays over 550px */
+
+@media only screen and (min-width: 550px) {
+  .apps {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+
+  .logo svg {
+    max-height: 80%;
+  }
+
+  h1 {
+    font-size: 50px;
+    letter-spacing: 6px;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-weight: 300;
+  }
+
+  .entry {
+    max-width: 33%;
+    height: auto;
+  }
+
+  .entry img {
+    width: 97%;
+    padding: 10px;
+  }
+}
+
+/* add margins over 960px */
+
+@media only screen and (min-width: 960px) {
+  .container {
+    max-width: 960px;
+    margin: auto;
+  }
+}
