@@ -12,6 +12,7 @@ body {
   font-weight: 300;
 }
 
+/* prevent inage overflow*/
 img, svg {
   max-width: 100%;
   max-height: 100%;
@@ -21,6 +22,7 @@ a {
   color: #5d5f63;
 }
 
+/* set minimum touch targets */
 @media only screen and (max-width: 750px){
   a {
     min-width: 48px;
@@ -46,6 +48,7 @@ header {
   width: 75%;
   text-transform: uppercase;
   height: auto;
+  /* setting positioning for headings */
   position: relative;
 }
 
@@ -101,6 +104,7 @@ h4 {
   padding-right: 10px;
 }
 
+/* dropping heading to the bottom of the div */
 .heading .headingcontain {
   position: absolute;
   bottom: 0;
@@ -109,6 +113,7 @@ h4 {
   margin-bottom: -10px;
 }
 
+/* setting up git logo icon */
 [class*="zocial-github"]:before {
   font-family: 'zocial', sans-serif;
   color: #ad4e0a;
@@ -120,6 +125,8 @@ h4 {
   .apps {
     display: flex;
     flex-wrap: nowrap;
+    /* stretching divs so they all end at the same place
+      needed to align links */
     align-items: stretch;
     width: 100%;
   }
@@ -145,6 +152,7 @@ h4 {
   .entry {
     width: 33%;
     height: auto;
+    /* setting up to tie links to bottom of div */
     position: relative;
   }
 
@@ -153,6 +161,7 @@ h4 {
     padding: 10px;
   }
 
+/* dropping links to bottom center of div*/
   span.bottom {
     position: absolute;
     text-align: center;
