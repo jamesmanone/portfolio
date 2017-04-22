@@ -1,5 +1,11 @@
 @import url(http://weloveiconfonts.com/api/?family=zocial);
 
+* {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
 body {
   font-family: "Lato", sans-serif;
   color: #5f6268;
@@ -15,7 +21,7 @@ a {
   color: #5d5f63;
 }
 
-@@media only screen and (max-width: 750px){
+@media only screen and (max-width: 750px){
   a {
     min-width: 48px;
     min-height: 48px;
@@ -26,10 +32,6 @@ a {
 header {
   display: flex;
   justify-content: flex-end;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
   width: 100%;
   max-height: 120px;
   border-bottom: solid;
@@ -132,12 +134,12 @@ h4 {
   }
 
   h3 {
-    font-size: 20px;
+    font-size: 26px;
     font-weight: 300;
   }
 
   h2 {
-    font-size: 26px;
+    font-size: 30px;
   }
 
   .entry {
