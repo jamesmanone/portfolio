@@ -15,7 +15,7 @@ a {
   color: #5d5f63;
 }
 
-@@media only screen and (max-width: 500px){
+@@media only screen and (max-width: 750px){
   a {
     min-width: 48px;
     min-height: 48px;
@@ -62,6 +62,7 @@ h2 {
 h3 {
   padding-left: 2px;
   padding-right: 4px;
+  padding-bottom: 4px;
   margin-top: 0px;
   font-size: 16px;
   font-weight: 300;
@@ -98,10 +99,11 @@ h4 {
   padding-right: 10px;
 }
 
-.heading span {
+.heading .headingcontain {
   position: absolute;
   bottom: 0;
   right: 0;
+  padding-bottom: 0;
   margin-bottom: -10px;
 }
 
@@ -116,6 +118,7 @@ h4 {
   .apps {
     display: flex;
     flex-wrap: nowrap;
+    align-items: stretch;
     width: 100%;
   }
 
@@ -148,18 +151,14 @@ h4 {
     padding: 10px;
   }
 
-  .appslinks {
-    align-items: flex-end;
-    display: flex;
-    flex-wrap: nowrap;
-    width: 100%;
-  }
-
-  .entry a {
-    position: relative;
+  span.bottom {
+    position: absolute;
+    text-align: center;
     bottom: 0;
+    right: 0;
+    width: 100%;
+    margin: auto;
   }
-
 }
 
 /* add margins over 960px */
