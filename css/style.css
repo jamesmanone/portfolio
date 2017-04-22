@@ -11,6 +11,10 @@ img, svg {
   max-height: 100%;
 }
 
+a {
+  color: #5d5f63;
+}
+
 @@media only screen and (max-width: 500px){
   a {
     min-width: 48px;
@@ -98,6 +102,7 @@ h4 {
 
 [class*="zocial-github"]:before {
   font-family: 'zocial', sans-serif;
+  color: #ad4e0a;
 }
 
 /* Rules for displays over 550px */
@@ -121,6 +126,10 @@ h4 {
   h3 {
     font-size: 20px;
     font-weight: 300;
+  }
+
+  h2 {
+    font-size: 26px;
   }
 
   .entry {
