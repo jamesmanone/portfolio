@@ -131,6 +131,11 @@ h4 {
     width: 100%;
   }
 
+  section {
+    margin: 0px;
+    padding: 0px;
+  }
+
   .logo svg {
     max-height: 80%;
   }
